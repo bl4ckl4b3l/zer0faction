@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(82, 80, 80);
+    background-image: url("images/allover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: large;
+  }
+
+   
+  
+  header {
+    background-color: rgb(152, 152, 155);
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: rgb(24, 198, 241);
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content:space-around;
+    font-stretch: expanded;
+    font-size: 38px;
+    background-color: rgb(152, 152, 155);
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin: 0 10px;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: rgb(24, 198, 241);
+  }
+  
+  main {
+    padding: 20px;
+  }
+
+.products-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+.product {
+    width: 260px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(24, 198, 241);
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.overlay-content {
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #fafafa;
+}
+.overlay-price {
+    padding: -5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(24, 198, 241);
+    opacity: 1;
+    border: #080808;
+    border-radius: 6px;
+    border-width: 2px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.image-container:hover .overlay {
+  opacity: 1;
+}
+  }
+  button {
+    background-color: #e6e3e3;
+    color: #080808;
+    font-weight: 100;
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6c7879;
+  }
+  footer {
+    background-color: rgb(152, 152, 155);
+    padding: 80px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    color: tan;
+  }
