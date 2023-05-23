@@ -49,7 +49,16 @@ body {
     padding: 20px;
     
   }
-
+  #map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+    
+@media (min-width: 600px) {
+  .news-input {
+    width: 50%;
+  }
 .products-wrapper {
     display: flex;
     justify-content: center;
@@ -121,16 +130,7 @@ body {
   button:hover {
     background-color: #6c7879;
   }
-  #map {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-  }
-  
-  @media (min-width: 768px) {
-    .news-input {
-      width: 50%;
-    }
+
   footer {
     background-color: rgb(152, 152, 155);
     padding: 80px;
@@ -141,3 +141,4 @@ body {
     margin: 0;
     color: tan;
   }
+}
