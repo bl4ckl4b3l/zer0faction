@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Cart</title>
+        <!-- Add your CSS stylesheets and external dependencies here -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+  <style>
+    /* CSS styles for the cart page */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .cart-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .cart-item img {
+      width: 100px;
+      height: 100px;
+      margin-right: 10px;
+    }
+    
+    .cart-item-details {
+      flex-grow: 1;
+    }
+    
+    .cart-item-name {
+      font-weight: bold;
+    }
+    
+    .cart-item-price {
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>Shopping Cart</h1>
+
+  <div class="product-container">
+    <div class="product">
+        <img src="images/zfvans.png" alt="offthewall" width="240" height="320">
+        <h3>Off The Wall Tee</h3>
+        <p>Price: $21.99</p>
+        <button onclick="addToCart('Product 1')">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="images/ogzero.png" alt="OG Logo" width="240" height="320">
+        <h3>OG Faction Tee</h3>
+        <p>Price: $24.99</p>
+        <button onclick="addToCart('Product 2')">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="images/zxword.png" alt="Z Word" width="240" height="320">
+        <h3>Crossword Tee</h3>
+        <p>Price: $21.99</p>
+        <button onclick="addToCart('Product 3')">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="images/boldzero.png" alt="Bold Zer0" width="240" height="320">
+        <h3>Bold Tee</h3>
+        <p>Price: $21.99</p>
+        <button onclick="addToCart('Product 4')">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="images/spillshirt.png" alt="Spill Shirt" width="240" height="320">
+        <h3>Spilled Ingredients Tee</h3>
+        <p>Price: $21.99</p>
+        <button onclick="addToCart('Product 5')">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="images/factionshirt.png" alt="Distressed Facti0n" width="240" height="320">
+        <h3>Distressed Logo Tee</h3>
+        <p>Price: $21.99</p>
+        <button onclick="addToCart('Product 6')">Add to Cart</button>
+    </div>
