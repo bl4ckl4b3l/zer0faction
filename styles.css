@@ -7,16 +7,23 @@ body::before {
   background-repeat:repeat;
   background-position: center;
 }
-
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+}
 #map {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+}
 
 @media (min-width: 768px) {
   .news-input {
-    width: 50%;
+    width: 60%;
   }
   .component {
       color: var(--bs-gray-800);
@@ -82,7 +89,7 @@ body::before {
     border-radius: 20px;
     text-align: center;
     background-color: rgb(24, 198, 241);
-
+  }
 .image-container {
   position: relative;
   display: inline-block;
@@ -134,15 +141,12 @@ body::before {
   button:hover {
     background-color: #6c7879;
   }
-
   footer {
     background-color: rgb(152, 152, 155);
     padding: 80px;
     text-align: center;
   }
-  
   footer p {
     margin: 0;
     color: tan;
   }
-}
